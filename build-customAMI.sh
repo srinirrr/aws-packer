@@ -8,4 +8,4 @@ sudo apt-get install tomcat9-admin tomcat9-common -y
 sudo apt-get install tomcat9 -y
 cd /var/lib/tomcat9/webapps/
 sudo wget https://srini-alpha-new.s3.amazonaws.com/ion.war
-sudo systemctl start tomcat9 -y
+sudo systemctl start tomcat9
